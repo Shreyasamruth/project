@@ -53,7 +53,7 @@ def calculator():
                 print("Exiting the calculator. Goodbye!")
                 break
         except ValueError:
-            print("Invalid input. Please enter numeric values for shreyas.")
+            print("Invalid input. Please enter numeric values.")
 
 # Run the calculator
 if __name__ == "__main__":
