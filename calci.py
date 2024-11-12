@@ -11,11 +11,11 @@ def multiply(x, y):
 
 def divide(x, y):
     if y == 0:
-        return "Error! Division by zero."
+        return "Error occured! Division by zero."
     else:
         return x / y
 
-# Function to perform the calculator operation
+# Function to perform the calculator operations
 def calculator():
     print("Select operation:")
     print("1. Add")
@@ -25,7 +25,7 @@ def calculator():
 
     while True:
         try:
-            # Get user input for operation
+            # Get what the user input for operation
             choice = input("Enter choice (1/2/3/4): ")
 
             # Ensure valid operation
@@ -47,7 +47,7 @@ def calculator():
             elif choice == '4':
                 print(f"{num1} / {num2} = {divide(num1, num2)}")
 
-            # Ask if the user wants to continue
+            # Ask if  what the user wants to continue
             next_calculation = input("Do you want to perform another calculation? (yes/no): ").lower()
             if next_calculation != 'yes':
                 print("Exiting the calculator. Goodbye!")
